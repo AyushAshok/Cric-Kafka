@@ -1,7 +1,7 @@
 # Cric-Kafka
 A cricket streaming service able to handle multiple producers,consumers and brokers
 
-To run:
+To run:<br>
 1st Terminal- Run Zookeeper using python zookeepr.py <br>
 2nd Terminal- Run Broker using python broker.py --id (any id like broker1) --port PORT_NO. <br>
 3rd Terminal -Run Producer using python producer.py --id (any id like producer1) --port PORT_NO. <br>
