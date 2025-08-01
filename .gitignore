@@ -1,0 +1,23 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+*.env
+
+# Editor/OS-specific files
+.DS_Store
+*.swp
+
+# Project-specific files you want to ignore
+crick-kafka-firebase.json
+broker2.py
+consumer2.py
+index.py
