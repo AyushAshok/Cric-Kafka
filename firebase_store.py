@@ -6,7 +6,7 @@ from firebase_admin import db
 
 cred = credentials.Certificate("crick-kafka-firebase.json")
 firebase_admin.initialize_app(cred,{
-    'databaseURL':''  # Add your own firebase URL here
+    'databaseURL':''  # Add your own firebase's realtime database URL here
 })
 
 def push_firebase_database(topics):
